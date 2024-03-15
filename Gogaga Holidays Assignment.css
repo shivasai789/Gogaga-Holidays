@@ -1,0 +1,428 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Roboto";
+}
+
+@media screen and (max-width: 767px) {
+    .banner-content {
+        margin-bottom: 160px;
+
+    }
+
+    .quote {
+        font-size: 30px;
+    }
+
+    .title {
+        font-size: 20px;
+    }
+
+    .heading {
+        font-size: 30px;
+    }
+
+    .description {
+        font-size: 10px;
+    }
+
+    .detail-card-container {
+        width: 100%;
+    }
+
+    .gogaga-holidays-holiday-packages-page {
+        padding: 30px;
+    }
+
+    .gogaga-holidays-home-page {
+        justify-content: center;
+        background-image: url('https://res.cloudinary.com/dsovyumur/image/upload/v1710443527/674925_dysyyn.png');
+    }
+
+    .flying-from {
+        width: 100px;
+    }
+
+    .heading-search {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .gogaga-holidays-flight-booking-page {
+        padding: 30px;
+    }
+
+    .flight-head {
+        font-size: 20px;
+    }
+
+    .flying-from {
+        font-size: 10px;
+    }
+
+    .two-way {
+        display: none;
+    }
+
+    .search-field {
+        height: 30px;
+        padding: 3px;
+    }
+
+    .gogaga-holidays-hotel-booking-page {
+        padding: 30px;
+    }
+
+    .gogaga-holidays-packages-page {
+        padding: 30px;
+    }
+
+    .gogaga-services-page {
+        padding: 30px;
+    }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+    .banner-content {
+        margin-bottom: 50px;
+    }
+
+    .quote {
+        font-size: 50px;
+    }
+
+    .heading {
+        font-size: 50px;
+    }
+
+    .description {
+        font-size: 15px;
+    }
+
+    .detail-card-container {
+        width: 43%;
+    }
+
+    .gogaga-holidays-holiday-packages-page {
+        padding: 80px;
+    }
+
+    .gogaga-holidays-home-page {
+        justify-content: flex-end;
+        background-image: url('https://res.cloudinary.com/dsovyumur/image/upload/v1710430884/674925_vdmqtd.png');
+    }
+
+    .flying-from {
+        width: 250px;
+        height: 60px;
+    }
+
+    .search-btn {
+        height: 70px;
+        width: 200px;
+        font-size: 30px;
+    }
+
+    .two-way {
+        display: none;
+    }
+
+    .heading-search {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .gogaga-holidays-flight-booking-page {
+        padding: 80px;
+    }
+
+    .flying-from {
+        font-size: 20px;
+        padding: 10px;
+    }
+
+    .search-field {
+        height: 50px;
+        padding: 10px;
+    }
+
+    .booking-container {
+        align-items: center;
+    }
+
+    .gogaga-holidays-hotel-booking-page {
+        padding: 80px;
+    }
+
+    .gogaga-holidays-packages-page {
+        padding: 80px;
+    }
+
+    .gogaga-services-page {
+        padding: 80px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .banner-content {
+        margin-bottom: 50px;
+    }
+
+    .quote {
+        font-size: 50px;
+    }
+
+    .heading {
+        font-size: 50px;
+    }
+
+    .description {
+        font-size: 15px;
+    }
+
+    .detail-card-container {
+        width: 30%;
+    }
+
+    .gogaga-holidays-holiday-packages-page {
+        padding: 80px;
+    }
+
+    .gogaga-holidays-home-page {
+        justify-content: flex-end;
+        background-image: url('https://res.cloudinary.com/dsovyumur/image/upload/v1710430884/674925_vdmqtd.png');
+    }
+
+    .flying-from {
+        width: 570px;
+        height: 80px;
+        font-size: 20px;
+        padding: 10px;
+    }
+
+
+    .search-btn {
+        height: 70px;
+        width: 200px;
+        font-size: 30px;
+    }
+
+    .heading-search {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .gogaga-holidays-flight-booking-page {
+        padding: 80px;
+    }
+
+    .search-field {
+        height: 50px;
+        padding: 10px;
+    }
+
+    .search-field1 {
+        width: 900px;
+        height: 80px;
+        padding: 10px;
+    }
+
+    .booking-container {
+        align-items: center;
+    }
+
+    .gogaga-holidays-hotel-booking-page {
+        padding: 80px;
+    }
+
+    .searchBox1 {
+        font-size: 30px;
+    }
+
+    .gogaga-holidays-packages-page {
+        padding: 80px;
+    }
+
+    .gogaga-services-page {
+        padding: 80px;
+    }
+}
+
+.gogaga-holidays-home-page {
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo {
+    width: 120px;
+}
+
+.btn:hover {
+    border: 1px solid green;
+}
+
+.nav-items {
+    color: #2596be !important;
+    font-size: 15px;
+}
+
+.banner-content {
+    text-align: center;
+    color: white;
+}
+
+.quote {
+    font-family: "cursive";
+    font-weight: bold;
+}
+
+.heading {
+    font-weight: bold;
+    margin-bottom: 3%;
+}
+
+.detail-card-container {
+    background-color: white;
+    border-radius: 10px;
+    margin: 15px;
+}
+
+.basic-details-img {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.basic-detail-heading {
+    font-size: 25px;
+    color: #2596be;
+    font-weight: bold;
+}
+
+.detail-container {
+    background-color: #f9fbfe;
+}
+
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content-container {
+    padding: 10px;
+}
+
+.know-more-btn {
+    border: 1px solid green;
+    background-color: transparent;
+    color: green;
+    height: 30px;
+    width: 120px;
+}
+
+.know-more-btn:hover {
+    border: 1px solid #2596be;
+    color: #2596be;
+}
+
+.search-field {
+    border: 1px solid #e4e7eb;
+    border-radius: 10px;
+    min-width: 250px;
+    background-color: white;
+}
+
+.search-field1 {
+    border: 1px solid #e4e7eb;
+    border-radius: 10px;
+    min-width: 250px;
+    background-color: white;
+    text-align: left;
+}
+
+.searchBox {
+    border: 0px;
+    min-width: 210px;
+    outline: none;
+}
+
+.searchBox1 {
+    border: 0px;
+    min-width: 180px;
+    outline: none;
+}
+
+.search {
+    margin-right: 8px;
+}
+
+.flight-booking-card {
+    background-color: #FAF9F6;
+    text-align: center;
+    border-radius: 20px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 35px;
+}
+
+.flight-btn {
+    border: 1px solid #2596be;
+    color: black;
+    height: 30px;
+    width: 120px;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+
+.flying-from {
+    background-color: white;
+    border: 1px solid #FAF9F6;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: left;
+    margin: 10px;
+}
+
+.flying-from1 {
+    background-color: white;
+    border: 1px solid #FAF9F6;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: left;
+    margin: 10px;
+}
+
+.two-way {
+    font-size: 30px;
+}
+
+.two-way1 {
+    font-size: 30px;
+}
+
+.booking-container {
+    display: flex;
+    justify-content: center;
+}
+
+.booking-container1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.color-change1 {
+    color: #669c53;
+}
+
+.color-change2 {
+    color: #20999d;
+}
